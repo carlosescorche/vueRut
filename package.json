@@ -1,0 +1,22 @@
+{
+  "name": "vuerut",
+  "version": "1.0.0",
+  "description": "Componente para validar RUT chileno",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "Vuejs",
+    "javascript"
+  ],
+  "author": "Carlos Escorche",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^2.1.11",
+    "vue": "^2.5.16"
+  }
+}
